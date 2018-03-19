@@ -1,5 +1,6 @@
   body {
       -moz-user-select: text;
+      background-color: #000;
   }
   .scroller-wrap {
       overflow: auto;
@@ -106,4 +107,25 @@
   }
   .guilds-wrapper {
       display: block;
+  }
+  [class|=titleWrapper] {
+      display: none;
+  }
+  .channel-members-wrap {
+      display: none;
+  }
+  [class|=attachButton] {
+      display: none;
+  }
+  [class|=typing] {
+      display: none;
+  }
+  [class|=channelTextArea] {
+      margin: 0px 0 10px;
+  }
+  [class|=spriteNormal] {
+      display: none;
+  }
+  .chat .divider.divider-red {
+      display: none;
   }
